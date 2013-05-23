@@ -1,3 +1,7 @@
+=== 1.0.1 / 2013-05-23
+
+* Add discovery
+
 === 1.0.0 / 2013-05-23
 
 * 1 major enhancement

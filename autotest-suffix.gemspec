@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = "autotest-suffix"
-  s.version = "1.0.0.20130523155258"
+  s.version = "1.0.1.20130523163318"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Mike Moore"]
@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.description = "Autotest plugin to enable rails-style test filenames."
   s.email = ["mike@blowmage.com"]
   s.extra_rdoc_files = ["History.txt", "Manifest.txt", "README.md"]
-  s.files = [".autotest", "History.txt", "Manifest.txt", "README.md", "Rakefile", "lib/autotest/suffix.rb", "test/autotest/test_suffix.rb", ".gemtest"]
+  s.files = [".autotest", "History.txt", "Manifest.txt", "README.md", "Rakefile", "autotest-suffix.gemspec", "lib/autotest/discover.rb", "lib/autotest/suffix.rb", "test/autotest/test_suffix.rb", ".gemtest"]
   s.homepage = "http://blowmage.com/autotest-suffix"
   s.rdoc_options = ["--main", "README.md"]
   s.require_paths = ["lib"]
