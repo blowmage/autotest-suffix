@@ -11,6 +11,7 @@ Hoe.spec "autotest-suffix" do
   self.summary     = "Enable suffix named tests in Autotest"
   self.description = "Autotest plugin to enable rails-style test filenames."
   self.urls        = ["http://blowmage.com/autotest-suffix"]
+  self.readme_file = "README.md"
   self.testlib     = "minitest/autorun"
 
   dependency "minitest", "~> 5.0", :dev

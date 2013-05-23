@@ -1,37 +1,47 @@
-= autotest-suffix
+autotest-suffix
+===============
 
 Enable suffix named tests in Autotest
 
-== DESCRIPTION:
+Description
+-----------
 
 Autotest plugin to enable rails-style test filenames.
 
-== FEATURES/PROBLEMS:
+Usage
+-----
 
-* FIX (list of features or problems)
+Install the gem:
 
-== SYNOPSIS:
+    $ gem install autotest-suffix
 
-  FIX (code sample of usage)
+Add the following line to your `.autotest` file:
 
-== REQUIREMENTS:
+    require "autotest/suffix"
 
-* FIX (list of requirements)
+Now you can name your test files using the rails convention of `foo_test.rb`
+instead of the typical ruby convention of `test_foo.rb`.
 
-== INSTALL:
+Contributing
+------------
 
-* FIX (sudo gem install, anything else)
-
-== DEVELOPERS:
+Fork the project from the
+[GitHub repository](https://github.com/blowmage/autotest-suffix).
 
 After checking out the source, run:
 
-  $ rake newb
+    $ gem install hoe
+    $ rake newb
 
-This task will install any missing dependencies, run the tests/specs,
-and generate the RDoc.
+This task will install any missing dependencies, run the tests, and generate
+the RDoc. Now you are ready to create and submit a patch.
 
-== LICENSE:
+Create an issue or pull request on the
+[blowmage/autotest-suffix](https://github.com/blowmage/autotest-suffix) repo
+that links to a branch on your repo or a gist of your patch.
+
+License
+-------
 
 (The MIT License)
 
