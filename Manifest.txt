@@ -1,0 +1,7 @@
+.autotest
+History.txt
+Manifest.txt
+README.txt
+Rakefile
+lib/autotest/suffix.rb
+test/autotest/test_suffix.rb
