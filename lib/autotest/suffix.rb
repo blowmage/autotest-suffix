@@ -1,6 +1,6 @@
 require "autotest"
 
-class Autotest::Suffix
+class Autotest::Suffix < Autotest
   VERSION = "1.0.0"
 
   def initialize # :nodoc:

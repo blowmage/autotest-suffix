@@ -3,5 +3,7 @@ History.txt
 Manifest.txt
 README.md
 Rakefile
+autotest-suffix.gemspec
+lib/autotest/discover.rb
 lib/autotest/suffix.rb
 test/autotest/test_suffix.rb
