@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = "autotest-suffix"
-  s.version = "1.0.1.20130524182709"
+  s.version = "1.0.2.20130524183011"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Mike Moore"]
