@@ -13,6 +13,7 @@ Hoe.spec "autotest-suffix" do
   self.urls        = ["http://blowmage.com/autotest-suffix"]
   self.readme_file = "README.md"
   self.testlib     = "minitest/autorun"
+  self.licenses    = ['MIT']
 
   dependency "minitest", "~> 5.0", :dev
 end
