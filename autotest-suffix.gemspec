@@ -1,9 +1,9 @@
 # -*- encoding: utf-8 -*-
-# stub: autotest-suffix 1.0.2.20150817145405 ruby lib
+# stub: autotest-suffix 1.1.0.20150817150605 ruby lib
 
 Gem::Specification.new do |s|
   s.name = "autotest-suffix"
-  s.version = "1.0.2.20150817145405"
+  s.version = "1.1.0.20150817150605"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]

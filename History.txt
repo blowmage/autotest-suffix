@@ -1,3 +1,15 @@
+=== 1.1.0 / 2015-08-17
+
+* Updated to work with minitest-autotest
+
+https://github.com/blowmage/autotest-suffix/compare/v1.0.2...v1.1.0
+
+=== 1.0.2 / 2013-05-25
+
+* Add guard on discovery
+
+https://github.com/blowmage/autotest-suffix/compare/v1.0.1...v1.0.2
+
 === 1.0.1 / 2013-05-23
 
 * Add discovery
@@ -7,4 +19,3 @@
 * 1 major enhancement
 
   * Birthday!
-
