@@ -1,18 +1,16 @@
 require "autotest"
 
-class Autotest::Suffix < Autotest
+module Autotest::Suffix
   VERSION = "1.0.2"
 
-  def initialize # :nodoc:
-    super
+  Autotest.add_hook :initialize do |at|
+    at.clear_mappings
 
-    clear_mappings
-
-    add_mapping %r%^lib/(.*)\.rb$% do |_, m|
-      files_matching %r%^test/#{m[1]}.*_test.rb$%
+    at.add_mapping %r%^lib/(.*)\.rb$% do |_, m|
+      at.files_matching %r%^test/#{m[1]}.*_test.rb$%
     end
 
-    add_mapping %r%^test/.*_test\.rb$% do |filename, _|
+    at.add_mapping %r%^test/.*_test\.rb$% do |filename, _|
       filename
     end
   end
